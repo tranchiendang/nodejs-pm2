@@ -1,0 +1,6 @@
+pm2 start token_new.js --node-args="--max-old-space-size=1024" # increase to 1gb
+pm2 start token_new.js --node-args="--max-old-space-size=2048" # increase to 2gb
+pm2 start token_new.js --node-args="--max-old-space-size=3072" # increase to 3gb
+pm2 start token_new.js --node-args="--max-old-space-size=4096" # increase to 4gb
+pm2 start token_new.js --node-args="--max-old-space-size=5120" # increase to 5gb
+pm2 start token_new.js --node-args="--max-old-space-size=6144" # increase to 6gb
