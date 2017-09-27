@@ -1,0 +1,14 @@
+module.exports = {
+  apps : [{
+    name   : "api",
+    script: "npm",
+    args : "start",
+    node_args: ["--max-old-space-size=5120"],
+    autorestart: true,
+    timestamp: "YYYY-MM-DD HH:mm Z",
+    exec_mode: "fork",
+    env: {
+        "ENV": "pro"
+    }
+  }]
+}
